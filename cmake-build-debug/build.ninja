@@ -49,15 +49,15 @@ cmake_ninja_workdir = C$:\Users\QCZ\CLionProjects\CS106B\cmake-build-debug\
 
 build cmake_object_order_depends_target_CS106B: phony || .
 
-build CMakeFiles\CS106B.dir\main.cpp.obj.ddi: CXX_SCAN__CS106B_Debug C$:\Users\QCZ\CLionProjects\CS106B\main.cpp || cmake_object_order_depends_target_CS106B
-  DEP_FILE = CMakeFiles\CS106B.dir\main.cpp.obj.ddi.d
-  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\CS106B.dir\main.cpp.obj.ddi
+build CMakeFiles\CS106B.dir\RandTest.cpp.obj.ddi: CXX_SCAN__CS106B_Debug C$:\Users\QCZ\CLionProjects\CS106B\RandTest.cpp || cmake_object_order_depends_target_CS106B
+  DEP_FILE = CMakeFiles\CS106B.dir\RandTest.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\CS106B.dir\RandTest.cpp.obj.ddi
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
-  OBJ_FILE = CMakeFiles\CS106B.dir\main.cpp.obj
-  PREPROCESSED_OUTPUT_FILE = CMakeFiles\CS106B.dir\main.cpp.obj.ddi.i
+  OBJ_FILE = CMakeFiles\CS106B.dir\RandTest.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\CS106B.dir\RandTest.cpp.obj.ddi.i
 
-build CMakeFiles\CS106B.dir\main.cpp.obj: CXX_COMPILER__CS106B_scanned_Debug C$:\Users\QCZ\CLionProjects\CS106B\main.cpp | CMakeFiles\CS106B.dir\main.cpp.obj.modmap || cmake_object_order_depends_target_CS106B CMakeFiles\CS106B.dir\CXX.dd
-  DYNDEP_MODULE_MAP_FILE = CMakeFiles\CS106B.dir\main.cpp.obj.modmap
+build CMakeFiles\CS106B.dir\RandTest.cpp.obj: CXX_COMPILER__CS106B_scanned_Debug C$:\Users\QCZ\CLionProjects\CS106B\RandTest.cpp | CMakeFiles\CS106B.dir\RandTest.cpp.obj.modmap || cmake_object_order_depends_target_CS106B CMakeFiles\CS106B.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\CS106B.dir\RandTest.cpp.obj.modmap
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
   OBJECT_DIR = CMakeFiles\CS106B.dir
   OBJECT_FILE_DIR = CMakeFiles\CS106B.dir
@@ -65,7 +65,23 @@ build CMakeFiles\CS106B.dir\main.cpp.obj: CXX_COMPILER__CS106B_scanned_Debug C$:
   TARGET_PDB = CS106B.pdb
   dyndep = CMakeFiles/CS106B.dir/CXX.dd
 
-build CMakeFiles\CS106B.dir\CXX.dd | C$:\Users\QCZ\CLionProjects\CS106B\cmake-build-debug\CMakeFiles\CS106B.dir\CXXModules.json CMakeFiles\CS106B.dir\main.cpp.obj.modmap: CXX_DYNDEP__CS106B_Debug CMakeFiles\CS106B.dir\main.cpp.obj.ddi | C$:\Users\QCZ\CLionProjects\CS106B\cmake-build-debug\CMakeFiles\CS106B.dir\CXXDependInfo.json
+build CMakeFiles\CS106B.dir\random.cpp.obj.ddi: CXX_SCAN__CS106B_Debug C$:\Users\QCZ\CLionProjects\CS106B\random.cpp || cmake_object_order_depends_target_CS106B
+  DEP_FILE = CMakeFiles\CS106B.dir\random.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\CS106B.dir\random.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  OBJ_FILE = CMakeFiles\CS106B.dir\random.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\CS106B.dir\random.cpp.obj.ddi.i
+
+build CMakeFiles\CS106B.dir\random.cpp.obj: CXX_COMPILER__CS106B_scanned_Debug C$:\Users\QCZ\CLionProjects\CS106B\random.cpp | CMakeFiles\CS106B.dir\random.cpp.obj.modmap || cmake_object_order_depends_target_CS106B CMakeFiles\CS106B.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\CS106B.dir\random.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi
+  OBJECT_DIR = CMakeFiles\CS106B.dir
+  OBJECT_FILE_DIR = CMakeFiles\CS106B.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CS106B.dir\
+  TARGET_PDB = CS106B.pdb
+  dyndep = CMakeFiles/CS106B.dir/CXX.dd
+
+build CMakeFiles\CS106B.dir\CXX.dd | C$:\Users\QCZ\CLionProjects\CS106B\cmake-build-debug\CMakeFiles\CS106B.dir\CXXModules.json CMakeFiles\CS106B.dir\RandTest.cpp.obj.modmap CMakeFiles\CS106B.dir\random.cpp.obj.modmap: CXX_DYNDEP__CS106B_Debug CMakeFiles\CS106B.dir\RandTest.cpp.obj.ddi CMakeFiles\CS106B.dir\random.cpp.obj.ddi | C$:\Users\QCZ\CLionProjects\CS106B\cmake-build-debug\CMakeFiles\CS106B.dir\CXXDependInfo.json
 
 
 # =============================================================================
@@ -75,7 +91,7 @@ build CMakeFiles\CS106B.dir\CXX.dd | C$:\Users\QCZ\CLionProjects\CS106B\cmake-bu
 #############################################
 # Link the executable CS106B.exe
 
-build CS106B.exe: CXX_EXECUTABLE_LINKER__CS106B_Debug CMakeFiles\CS106B.dir\main.cpp.obj
+build CS106B.exe: CXX_EXECUTABLE_LINKER__CS106B_Debug CMakeFiles\CS106B.dir\RandTest.cpp.obj CMakeFiles\CS106B.dir\random.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

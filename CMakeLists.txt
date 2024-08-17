@@ -3,5 +3,7 @@ project(CS106B)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CS106B main.cpp
-        random.h)
+add_executable(CS106B
+        random.h
+        RandTest.cpp
+        random.cpp)

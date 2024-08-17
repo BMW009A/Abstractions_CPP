@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\CS106B.dir\main.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\RandTest.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\random.cpp.obj: dyndep
+
