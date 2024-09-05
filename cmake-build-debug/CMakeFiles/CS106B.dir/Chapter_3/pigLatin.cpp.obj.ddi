@@ -3,10 +3,10 @@
     "revision": 0,
     "rules": [
         {
-            "primary-output": "CMakeFiles\\CS106B.dir\\random.cpp.obj",
+            "primary-output": "CMakeFiles\\CS106B.dir\\Chapter_3\\pigLatin.cpp.obj",
             "outputs": [
                 "C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\vc140.pdb",
-                "CMakeFiles\\CS106B.dir\\random.cpp.obj.ddi"
+                "CMakeFiles\\CS106B.dir\\Chapter_3\\pigLatin.cpp.obj.ddi"
             ],
             "requires": []
         }

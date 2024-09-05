@@ -3,10 +3,10 @@
     "revision": 0,
     "rules": [
         {
-            "primary-output": "CMakeFiles\\CS106B.dir\\main.cpp.obj",
+            "primary-output": "CMakeFiles\\CS106B.dir\\Chapter_2\\RandTest.cpp.obj",
             "outputs": [
                 "C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\vc140.pdb",
-                "CMakeFiles\\CS106B.dir\\main.cpp.obj.ddi"
+                "CMakeFiles\\CS106B.dir\\Chapter_2\\RandTest.cpp.obj.ddi"
             ],
             "requires": []
         }

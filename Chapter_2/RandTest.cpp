@@ -16,6 +16,15 @@ using namespace std;
 
 const int N_TRIALS = 10;
 
+unsigned int add_student(){
+
+    unsigned int student_cout{0};
+    student_cout++;
+
+    return student_cout;
+
+}
+
 int main() {
 
     cout << "On this computer, RAND_MAX is " << RAND_MAX << endl;
@@ -26,6 +35,9 @@ int main() {
         cout << setw(10) << rand() << endl;
 
     }
+    cout << "student count : " << add_student() << endl;
+    cout << "student count : " << add_student() << endl;
+    cout << "student count : " << add_student() << endl;
 
     return 0;
 

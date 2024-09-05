@@ -4,6 +4,7 @@ project(CS106B)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CS106B
-        random.h
-        RandTest.cpp
-        random.cpp)
+#        Chapter_2/random.h
+#        Chapter_2/RandTest.cpp
+#        Chapter_2/random.cpp
+        Chapter_3/pigLatin.cpp)
