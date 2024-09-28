@@ -26,7 +26,8 @@ characters.
 2. <__cctype__> library exports several functions for working with individual 
 characters.
 ## Chapter 4 (Streams)
-
+## Chapter 5 (Collections)
+later code will use '*.hpp' as header file suffix to make this C++ project consistency.
 
 
 

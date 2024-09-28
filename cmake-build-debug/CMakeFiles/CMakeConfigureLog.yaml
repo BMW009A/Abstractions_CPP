@@ -210,3 +210,150 @@ events:
       Microsoft (R) Incremental Linker Version 14.41.34120.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8wg2a5"
+      binary: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8wg2a5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8wg2a5'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -v cmTC_a67b7
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a67b7.dir\\src.c.obj /FdCMakeFiles\\cmTC_a67b7.dir\\ /FS -c C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-8wg2a5\\src.c
+        FAILED: CMakeFiles/cmTC_a67b7.dir/src.c.obj 
+        C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCMAKE_HAVE_LIBC_PTHREAD  /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_a67b7.dir\\src.c.obj /FdCMakeFiles\\cmTC_a67b7.dir\\ /FS -c C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-8wg2a5\\src.c
+        C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-8wg2a5\\src.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dawc88"
+      binary: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dawc88"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-dawc88'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -v cmTC_e8da5
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_e8da5.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_e8da5.dir\\ /FS -c C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-dawc88\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e8da5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e8da5.dir\\CheckFunctionExists.c.obj  /out:cmTC_e8da5.exe /implib:cmTC_e8da5.lib /pdb:cmTC_e8da5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_e8da5.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_e8da5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e8da5.dir\\CheckFunctionExists.c.obj  /out:cmTC_e8da5.exe /implib:cmTC_e8da5.lib /pdb:cmTC_e8da5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthreads.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e8da5.dir\\CheckFunctionExists.c.obj /out:cmTC_e8da5.exe /implib:cmTC_e8da5.lib /pdb:cmTC_e8da5.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_e8da5.dir/intermediate.manifest CMakeFiles\\cmTC_e8da5.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:27 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:124 (include)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-csp293"
+      binary: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-csp293"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-csp293'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -v cmTC_d64d7
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS -DCHECK_FUNCTION_EXISTS=pthread_create /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_d64d7.dir\\CheckFunctionExists.c.obj /FdCMakeFiles\\cmTC_d64d7.dir\\ /FS -c C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-csp293\\CheckFunctionExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d64d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d64d7.dir\\CheckFunctionExists.c.obj  /out:cmTC_d64d7.exe /implib:cmTC_d64d7.lib /pdb:cmTC_d64d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        FAILED: cmTC_d64d7.exe 
+        C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_d64d7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d64d7.dir\\CheckFunctionExists.c.obj  /out:cmTC_d64d7.exe /implib:cmTC_d64d7.lib /pdb:cmTC_d64d7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  pthread.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        LINK Pass 1: command "C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d64d7.dir\\CheckFunctionExists.c.obj /out:cmTC_d64d7.exe /implib:cmTC_d64d7.lib /pdb:cmTC_d64d7.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTFILE:CMakeFiles\\cmTC_d64d7.dir/intermediate.manifest CMakeFiles\\cmTC_d64d7.dir/manifest.res" failed (exit code 1104) with the following output:
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib'\x0d
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:36 (check_cxx_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2023.1.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:36 (find_dependency)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:33 (_qt_internal_find_third_party_dependencies)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:45 (include)"
+      - "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:169 (find_package)"
+      - "CMakeLists.txt:10 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jl7h0c"
+      binary: "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jl7h0c"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;C:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-jl7h0c'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2023.1.3/bin/ninja/win/x64/ninja.exe" -v cmTC_98597
+        [1/2] C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DHAVE_STDATOMIC  /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -std:c++20 -MDd -Zi /showIncludes /FoCMakeFiles\\cmTC_98597.dir\\src.cxx.obj /FdCMakeFiles\\cmTC_98597.dir\\ /FS -c C:\\Users\\QCZ\\CLionProjects\\CS106B\\cmake-build-debug\\CMakeFiles\\CMakeScratch\\TryCompile-jl7h0c\\src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\JetBrains\\CLion 2023.1.3\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\\cmTC_98597.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~2\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_98597.dir\\src.cxx.obj  /out:cmTC_98597.exe /implib:cmTC_98597.lib /pdb:cmTC_98597.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...

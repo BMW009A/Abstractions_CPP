@@ -1,3 +1,5 @@
 C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CS106B.dir
 C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CS106B_autogen_timestamp_deps.dir
+C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CS106B_autogen.dir

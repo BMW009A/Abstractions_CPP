@@ -11,7 +11,26 @@
 	"dir-top-src" : "C:/Users/QCZ/CLionProjects/CS106B",
 	"exports" : [],
 	"forward-modules-from-target-dirs" : [],
-	"include-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\collections",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\console",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\graphics",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\io",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\private",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\resources",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\system",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\testing",
+		"C:\\Users\\QCZ\\CLionProjects\\CS106B\\CS106-Lib\\util",
+		"C:\\Qt\\6.7.2\\mingw_64\\include",
+		"CS106B_autogen\\include",
+		"C:\\Qt\\6.7.2\\mingw_64\\include\\QtCore",
+		"C:\\Qt\\6.7.2\\mingw_64\\mkspecs\\win32-g++",
+		"C:\\Qt\\6.7.2\\mingw_64\\include\\QtGui",
+		"C:\\Qt\\6.7.2\\mingw_64\\include\\QtWidgets",
+		"C:\\Qt\\6.7.2\\mingw_64\\include\\QtNetwork",
+		"C:\\Qt\\6.7.2\\mingw_64\\include\\QtMultimedia"
+	],
 	"language" : "CXX",
 	"linked-target-dirs" : [],
 	"module-dir" : "C:/Users/QCZ/CLionProjects/CS106B/cmake-build-debug/CMakeFiles/CS106B.dir"

@@ -1,3 +1,149 @@
 ninja_dyndep_version = 1.0
 build CMakeFiles\CS106B.dir\Chapter_3\pigLatin.cpp.obj: dyndep
 
+build CMakeFiles\CS106B.dir\Chapter_5\RPNCalculator.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\Chapter_5\main.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\basicgraph.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\collections.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\dawglexicon.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\gridlocation.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\hashcode.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\collections\trielexicon.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\console\console.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\console\gconsolewindow.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\console\ioutils.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\console\plainconsole.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gbrowserpane.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gbutton.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gcanvas.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gcheckbox.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gchooser.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gclipboard.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gcolor.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gcolorchooser.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gcontainer.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gdiffimage.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gdownloader.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gdrawingsurface.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gevent.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\geventqueue.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gfilechooser.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gfont.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gfontchooser.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\ginteractor.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\glabel.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\glayout.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gobjects.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gobservable.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\goptionpane.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gradiobutton.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gscrollbar.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gscrollpane.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gslider.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gspacer.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gtable.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gtextarea.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gtextfield.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gthread.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gtimer.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gtypes.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\gwindow.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\moc_unity.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\graphics\qtgui.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\io\filelib.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\io\simpio.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\io\tokenscanner.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\io\urlstream.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\private\filelibunix.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\private\filelibwindows.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\private\init.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\private\librarymain.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\private\mainwrapper.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\system\error.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\system\exceptions.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\system\os.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\testing\MemoryDiagnostics.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\testing\TestDriver.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\testing\TestingGUI.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\testing\TextUtils.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\direction.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\gmath.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\random.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\require.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\sound.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\splversion.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\strlib.cpp.obj: dyndep
+
+build CMakeFiles\CS106B.dir\CS106-Lib\util\timer.cpp.obj: dyndep
+
